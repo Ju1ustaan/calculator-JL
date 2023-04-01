@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url("https://s-media-cache-ak0.pinimg.com/736x/76/10/0c/76100cdcc589cae5f2a07522bda13d5f.jpg");
+}
+
+.wrapper{
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background: linear-gradient(45deg, rgba(179,179,179,1) 24%, rgba(207,207,207,1) 47%, rgba(179,179,179,1) 62%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+}
+.viewer{
+    font-family: 'DS-Digital';
+    width: 100%;
+    height: 74px;
+    background: linear-gradient(45deg, rgba(117,117,117,1) 62%, rgba(168,168,168,1) 75%, rgba(110,110,110,1) 91%);
+    border-radius: 20px;
+    border: 2px solid rgb(81, 81, 81);
+    padding: 5px;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: end;
+}
+.calculator{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.calc{
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    background: linear-gradient(45deg, rgba(218,218,218,1) 62%, rgba(230,230,230,1) 80%, rgba(218,218,218,1) 100%);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+.btn-reset{
+    grid-column: 1/3;
+    background: linear-gradient(45deg, rgba(217,88,88,1) 62%, rgba(255,147,147,1) 80%, rgba(217,88,88,1) 100%);
+}
+.btn-procent{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background: linear-gradient(45deg, rgba(117,117,117,1) 62%, rgba(168,168,168,1) 75%, rgba(110,110,110,1) 91%);
+}
+.btn-zero{
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+.btn-dot{
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+.btn-eq{
+    grid-row: 5/6;
+    grid-column: 3/5;
+    background: linear-gradient(45deg, rgba(117,117,117,1) 62%, rgba(168,168,168,1) 75%, rgba(110,110,110,1) 91%);
+}
+.btn-minus{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background: linear-gradient(45deg, rgba(117,117,117,1) 62%, rgba(168,168,168,1) 75%, rgba(110,110,110,1) 91%);
+}
+.btn-multiplication{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    background: linear-gradient(45deg, rgba(117,117,117,1) 62%, rgba(168,168,168,1) 75%, rgba(110,110,110,1) 91%);
+}
+.btn-division{
+    grid-column: 4/5;
+    grid-row: 4/5;
+    background: linear-gradient(45deg, rgba(117,117,117,1) 62%, rgba(168,168,168,1) 75%, rgba(110,110,110,1) 91%);
+}
+.btn-addition{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background: linear-gradient(45deg, rgba(117,117,117,1) 62%, rgba(168,168,168,1) 75%, rgba(110,110,110,1) 91%);
+}
